@@ -153,18 +153,6 @@ echo '</div>';
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 $query = "SELECT SUM(стоимость_продажи) FROM покупка
 INNER JOIN книги USING(книга_id)";
 $result = $link->query($query);
@@ -213,8 +201,6 @@ print<<< _HTML_
 &copy; Захар Книгочтей
 _HTML_;
 echo '</div>';
-
-
 
 
 ?>
