@@ -1,0 +1,190 @@
+body{
+	background:lightgrey;
+}
+
+.blocks{
+	background:lightgrey;
+	position:relative;
+	display:inline-block;
+	width:240;
+	height:440px;
+	margin:5px;
+	padding-left:13px;
+	padding:15px;
+    border-width:5px;
+	border-bottom-color:grey;
+	border-style:outset;
+}
+
+.blocks:hover{
+	background:orange;
+	border-style:inset;
+}
+	
+.left{
+	background:blue;
+	position:absolute; 
+	left:0px;
+	width:150px;
+	height:600px;
+	margin-top:300px;
+	display:none;
+}		
+		
+.block{
+	background:lightgrey;
+	position:absolute;
+	width:auto;
+	margin-top:0px;
+	padding:30px;
+	margin-left:40px;
+	margin-right:40px;
+	margin-top:0px;
+	padding:40px;
+	padding-top:10px;
+	
+}
+	
+.name{
+	color:orange;
+	position:absolute;
+	margin-left:200px;
+	font-weight:bold;
+	font-stretch: 50%;
+	font-size:55px;
+	padding:10px;
+}
+.shapka{
+	background-color:black;
+	height:160px;
+}
+
+.fotos{
+	position:absolute;
+	margin:5px;
+}
+
+.otbor1{
+	font-weight:bolder;
+	font-size:20px;
+	font-family:sans-serif;
+	font-stretch:ultra-expanded;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	font-size:30px;
+    background:orange; 
+    color:black; 
+    text-decoration:none; 
+    border-radius:none; 
+	width:400px;
+	height:60px;
+   	margin:0px;
+	border-style:inset;
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+i {
+    border: solid black;
+    border-width: 0 4px 4px 0;
+    display: inline-block;
+   padding: 10px;
+   margin-left:80px;
+}
+
+.otbor1:hover{
+	background:black;
+	color:orange;
+}
+
+.otbor{
+	position:relative;
+	display:inline-block;
+}
+
+.otbor2{
+   	position:absolute;
+	min-width:400px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+	margin-top:300px;
+	display:none;
+}
+
+#otborrr{
+	width:400px;
+	height:40px;
+	background:grey;
+	text-align:center;
+	font-weight:bold;
+	font-size:20px;
+	font-family:sans-serif;
+	font-stretch:ultra-expanded;
+	text-shadow:orange;
+	padding:10px;
+	margin:0px;
+	display:block;
+	cursor:pointer;
+}
+
+.otbor:hover .otbor2{
+	display:block;
+}
+
+#ootbor{
+	width:300px;
+	height:40px;
+}
+
+#otborrr:hover {
+	background-color:orange;
+	transition-duration: 0.2s;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 
+  0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+form{
+	margin:0px;
+	padding:0px;
+}
+
+#kupit{
+	cursor:pointer;
+}
+#kupit:hover{
+		background:grey;
+}
+
+.MoiZakaz{
+	position:absolute; 
+	font-size:30px;
+    background: orange; 
+    color:black; 
+	font-weight:bolder;
+    text-align:center;
+    text-decoration: none; 
+    border-radius:35px; 
+	width:170px;
+	padding:10px;
+	top:30px;
+}
+
+.MoiZakaz:hover {
+	background:lightgrey;
+	color:black;
+}
+
+.podval{
+	 position:fixed;
+	 bottom:0; left:0;
+	 padding:4px;
+	 background-color:black;
+	 height:10px;
+	 width:100%;
+	 color:orange;
+	 font-size:15px;
+}
